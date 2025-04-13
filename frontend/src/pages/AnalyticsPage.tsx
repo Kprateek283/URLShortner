@@ -190,7 +190,7 @@ const AnalyticsPage = () => {
                       <div className="flex flex-wrap items-center gap-4">
                         <span className="font-medium text-sm text-gray-600">Short URL:</span>
                         <span className="text-blue-600 break-all">
-                          {`${import.meta.env.VITE_BACKEND_URL}/${data.url.shortId}`}
+                          {`${import.meta.env.VITE_FRONTEND_URL}/${data.url.shortId}`}
                         </span>
                         <div className="flex gap-2">
                           <button
