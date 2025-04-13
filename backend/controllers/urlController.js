@@ -27,7 +27,7 @@ export const shortenUrl = async (req, res) => {
     });
 
     res.status(201).json({
-      shortUrl: `${process.env.BASE_URL}/${shortId}`,
+      shortUrl: `${process.env.FRONTEND_URL}/${shortId}`,
       originalUrl,
       shortId,
       expiresAt,
